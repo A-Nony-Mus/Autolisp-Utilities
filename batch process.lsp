@@ -1,6 +1,6 @@
 ;;These commands run a batch process on all dwgs within a given directory
 ;;Simply run the scripter command, point to a dwg in the directory you want, then enter the string of commands you want (encapsulated by quotation marks)
-;;e.g. "-layer on BACKGROUND  qsave close
+;;e.g. "-layer on BACKGROUND  qsave close"
 
 ;;**************************************************************************************************************;;
 ;;scripter													;;
