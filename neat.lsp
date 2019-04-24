@@ -30,7 +30,8 @@
  
   ;Continuously breed until we have found the desired phrase
   (while (< greatest_fitness (length phrase_lst))
-    (setq avg_fitness 0)
+    (setq avg_fitness 0
+          breeding_pool nil)
     ;Calculate the fitness of each member of the population
     ;Simply the number of characters in the correct position
     (foreach str strlst
