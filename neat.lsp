@@ -1,6 +1,10 @@
 ;;**************************************************************************************************************;;
 ;;neat                                                                                                                                                                                                                    ;;
 ;;Simple implementation of the NEAT algorithm                                                                                                                                  ;;
+;;Note: this command uses the lm:randrange function, which in turn relies on the lm:rand function                            ;;
+;;Credit for these functions goes to lee mac,                                                                                                                                         ;;
+;;They can be found at http://www.lee-mac.com/random.html                                                                                                   ;;
+;;While you are there, be sure to check out his other commands                                                         ;;
 ;;Written A-Nony-Mus 4/23/19                                                                                                                                                                                    ;;
 ;;**************************************************************************************************************;;
 (defun c:neat ( / phrase chars mutation maxpop gen x i str strlst char phrase_lst fitness avg_fitness breeding_pool fittest_str greatest_fitness)
